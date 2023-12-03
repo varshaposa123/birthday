@@ -1,0 +1,82 @@
+body {
+  background-image: url('https://static.vecteezy.com/system/resources/thumbnails/027/465/581/original/birthday-party-promo-slideshow-presentation-template-with-green-screen-4k-quality-free-video.jpg');
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Container styling */
+.login-container,
+.second-page,
+.third-page {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+  border-radius: 10px;
+  width: 600px; /* Increase the width as desired */
+  margin-bottom: 20px; /* Add margin between containers */
+}
+
+.login-container h1,
+.second-page h1,
+.third-page h1 {
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.login-container input {
+  margin-bottom: 1rem;
+}
+
+.login-container button {
+  background-color: #e50914;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+/* Specific styles for the second page */
+.second-page .content {
+  display: flex;
+}
+
+.second-page .image-container {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.second-page .image-container img {
+  max-width: 100%;
+  border-radius: 8px; /* Optional: Add border radius */
+}
+
+.second-page .text-container {
+  flex: 2;
+  color: white;
+}
+
+.next-page-button {
+  background-color: #e50914;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  border-radius: 5px;
+}
+.second-page h2{
+  color: rgb(9, 8, 8);
+}
+.third-page h2{
+  color: rgba(255, 255, 255, 0.549);
+}
+
+.third-page h6{
+  color: rgba(255, 255, 255, 0.904);
+}
